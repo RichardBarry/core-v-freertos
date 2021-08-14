@@ -82,9 +82,9 @@ by a pseudo device (i.e. not existing in real-hardware). This is useful for
 debugging purposes, but for a more realistic scenario you can look a the
 `test/uart` program.
 
-1. Copy `template/helloworld` into a directory of your chosing
+1. Copy `template/hello_world` into a directory of your chosing
 2. Run `source env/your-platform.sh` to target the desired platform and make
-   `helloworld` aware where to find the FreeRTOS source files and drivers
+   `hello_world` aware where to find the FreeRTOS source files and drivers
 3. Run `make all` to compile the example program
 4. Call `make run-sim` to do an RTL simulation or `make run-gvsoc` to do a
    virtual platform simulation of the example program
